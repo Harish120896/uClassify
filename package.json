@@ -1,0 +1,31 @@
+{
+  "name": "uclassify",
+  "version": "1.0.0",
+  "description": "A node module for accessing uclassify api (A free machine learning web service where you can easily create and use text classifier).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harish120896/uClassify.git"
+  },
+  "keywords": [
+    "analysis",
+    "analytics",
+    "classifier",
+    "classification",
+    "machine",
+    "learning",
+    "text",
+    "analysis",
+    "text",
+    "classification."
+  ],
+  "author": "Harish Kumar <saiharish120896@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harish120896/uClassify/issues"
+  },
+  "homepage": "https://github.com/Harish120896/uClassify#readme"
+}
