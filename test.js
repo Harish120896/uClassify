@@ -20,25 +20,25 @@
     console.log(options);
  
     //making the https get call
-    var getReq = https.request(options, function(res) {
-        console.log("\nstatus code: ", res.statusCode);
-        var data = "";
-        res.on('data', function(chunk) {
-             data +=  chunk;
-        });
-        res.on('end',function(){
-            var result = JSON.parse(data);
-            console.log(result);
-            //callback(result.results[0].lexicalEntries[0].entries[0].senses[0].definitions);
-        });
-    });
-    getReq.write(data);
-    //end the request
-    getReq.end();
-    getReq.on('error', function(err){
-        return err;
-    });
-    //initialize options values, the value of the method can be changed to POST to make https post calls
+    // var getReq = https.request(options, function(res) {
+    //     console.log("\nstatus code: ", res.statusCode);
+    //     var data = "";
+    //     res.on('data', function(chunk) {
+    //          data +=  chunk;
+    //     });
+    //     res.on('end',function(){
+    //         var result = JSON.parse(data);
+    //         console.log(result);
+    //         //callback(result.results[0].lexicalEntries[0].entries[0].senses[0].definitions);
+    //     });
+    // });
+    // getReq.write(data);
+    // //end the request
+    // getReq.end();
+    // getReq.on('error', function(err){
+    //     return err;
+    // });
+    // //initialize options values, the value of the method can be changed to POST to make https post calls
      
 
  

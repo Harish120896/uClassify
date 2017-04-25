@@ -3,7 +3,7 @@ var analytics = require('./index');
 var analysis = new analytics("W5f4ruJcdeAR","2mqfMVU3n3ou");
 
 
-analysis.untrain_classifier({"classifier":"Fantasy","className":"name_of_the_new_class","data":["text 1 to process","text 2 to process"]},function(err,data){
+analysis.userdeveloped_classifier_analysis({"username":"Harish Kumar","classifier":"fantasy","data":["Iw bIQtqDaq bIlengjaj 'ej pa'"]},function(err,data){
 	if(err){console.log(err);
 	}
 	else{
